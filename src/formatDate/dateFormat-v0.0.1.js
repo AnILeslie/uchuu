@@ -1,6 +1,7 @@
 "use strict";
 /**
  * @class DateFormat && 时间格式化快捷工具 && 继承自Date，支持Date原生方法
+ * @param 时间格式 yy:年，mm:月，dd:天，hh:小时，mn:分，ss:秒，ml:毫秒
  */
 
 class DateFormat extends Date {
@@ -9,7 +10,7 @@ class DateFormat extends Date {
     }
 
     /**
-     * @method 
+     * @method getFormatDate && 获取格式化时间
      * @param {String} formatType 时间格式 && yy:年，mm:月，dd:天，hh:小时，mn:分，ss:秒，ml:毫秒
      * @returns {String} 格式化之后的时间
      */

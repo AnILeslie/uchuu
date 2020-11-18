@@ -1,6 +1,11 @@
 # formatDate
 ## version: v0.0.1
 ## 参数：时间格式 yy:年，mm:月，dd:天，hh:小时，mn:分，ss:秒，ml:毫秒
+## 文件列表
+```
+dateFormat-v0.0.1.js    --- 工具文件
+test.html               --- 测试文件
+```
 # 使用
 ## 1、文件引入
 ```
