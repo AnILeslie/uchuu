@@ -1,12 +1,15 @@
-# JavaScriptLib
-JavaScript工具库
-## formatDate(v0.0.1)
-日期格式化工具，对Date进行扩展
-### 使用
+# formatDate
+## version: v0.0.1
+# 使用
+## 文件引入
 ```
 <script src="dateFormat-v0.0.1.js"></script>
 ```
-
+## import
+```
+export { DateFormat };  // 取消注释
+import { DateFormat } from "./dateFormat-v0.0.1.js";
+```
 ```
 let date = new DateFormat();  // 时间格式化工具，不输入时间值，初始化为当天
 console.log(`初始化当前时间，不指定格式：${date.getFormatDate()}`);
