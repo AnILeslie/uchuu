@@ -1,11 +1,11 @@
 # formatDate
 ## version: v0.0.1
 # 使用
-## 文件引入
+## 1、文件引入
 ```
 <script src="dateFormat-v0.0.1.js"></script>
 ```
-## import
+## 2、或者import
 ```
 export { DateFormat };  // 取消注释
 import { DateFormat } from "./dateFormat-v0.0.1.js";
