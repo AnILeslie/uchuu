@@ -1,5 +1,6 @@
 # formatDate
 ## version: v0.0.1
+## 参数：时间格式 yy:年，mm:月，dd:天，hh:小时，mn:分，ss:秒，ml:毫秒
 # 使用
 ## 1、文件引入
 ```
