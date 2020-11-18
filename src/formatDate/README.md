@@ -10,6 +10,7 @@
 export { DateFormat };  // 取消注释
 import { DateFormat } from "./dateFormat-v0.0.1.js";
 ```
+## 3、引入后，JS代码块中使用
 ```
 let date = new DateFormat();  // 时间格式化工具，不输入时间值，初始化为当天
 console.log(`初始化当前时间，不指定格式：${date.getFormatDate()}`);
