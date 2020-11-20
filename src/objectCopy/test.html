@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS工具库-objectCopy</title>
+    <script src="objectCopy-v0.0.1.js"></script>
+</head>
+
+<body>
+    <script>
+        "use strict";
+        let a = {
+            b: 1,
+            c: "q",
+            f: function (v) {
+                console.log(this);
+                console.log(`${this.b}+${this.c}+${v}`)
+            },
+        };
+
+        let d = new moreObject().completeAssign({ e: '990' }, a);
+
+        a.f = function (i) {
+            console.log("change");
+        };
+
+        let g = new moreObject().objectCopy(a);
+
+        console.log(a);
+        console.log(d);
+        console.log(g);
+    </script>
+</body>
+
+</html>
