@@ -17,12 +17,12 @@ class DateFormat extends Date {
     getFormatDate(formatType = "yy-mm-dd hh:mn:ss") {
         return formatType.replace(/(yy)|(mm)|(dd)|(hh)|(mn)|(ss)|(ml)/gi, e => {
             if (e == "yy") return this.getFullYear();
-            if (e == "mm") return this.getMonth();
-            if (e == "dd") return this.getDate();
-            if (e == "hh") return this.getHours();
-            if (e == "mn") return this.getMinutes();
-            if (e == "ss") return this.getSeconds();
-            if (e == "ml") return this.getMilliseconds();
+            if (e == "mm") return this.getMonth().toString().padStart(2, "0");
+            if (e == "dd") return this.getDate().toString().padStart(2, "0");
+            if (e == "hh") return this.getHours().toString().padStart(2, "0");
+            if (e == "mn") return this.getMinutes().toString().padStart(2, "0");
+            if (e == "ss") return this.getSeconds().toString().padStart(2, "0");
+            if (e == "ml") return this.getMilliseconds().toString().padStart(3, "0");
         });
     }
 
