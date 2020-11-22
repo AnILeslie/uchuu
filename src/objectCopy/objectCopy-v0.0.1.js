@@ -1,10 +1,20 @@
 "use strict";
 
+/**
+ * @class 对象扩展
+ */
 class moreObject extends Object {
     constructor() {
         super();
     }
 
+    /**
+     * @method completeAssign 对象合并
+     * @author jeq && 2020-11-20
+     * @param {Object} target 目标对象
+     * @param  {...any} sources 源对象
+     * @returns {Object} 新对象
+     */
     completeAssign(target, ...sources) {
         sources.forEach(source => {
             let descriptors = Object.keys(source).reduce((descriptors, key) => {
@@ -23,6 +33,12 @@ class moreObject extends Object {
         return target;
     }
 
+    /**
+     * @method objectCopy 对象深拷贝
+     * @author jeq && 2020-11-20
+     * @param {Object} obj 需要深拷贝的对象 
+     * @returns {Object} 拷贝的对象
+     */
     objectCopy(obj) {
         return Object.create(
             Object.getPrototypeOf(obj),
@@ -31,6 +47,4 @@ class moreObject extends Object {
     }
 }
 
-
-// example
 // export { moreObject };

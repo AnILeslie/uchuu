@@ -18,12 +18,14 @@
             },
         };
 
+        // 可通过合并实现深拷贝
         let d = new moreObject().completeAssign({ e: '990' }, a);
 
         a.f = function (i) {
             console.log("change");
         };
 
+        // 深拷贝
         let g = new moreObject().objectCopy(a);
 
         console.log(a);
