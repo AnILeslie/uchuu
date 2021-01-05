@@ -3,7 +3,7 @@
 /**
  * @class 对象扩展
  */
-class moreObject extends Object {
+class MoreObject extends Object {
     constructor() {
         super();
     }
@@ -47,4 +47,4 @@ class moreObject extends Object {
     }
 }
 
-// export { moreObject };
+// export { MoreObject };
