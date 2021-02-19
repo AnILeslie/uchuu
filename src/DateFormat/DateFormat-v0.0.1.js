@@ -101,12 +101,12 @@ class DateFormat extends Date {
 }
 
 // example(当前时间为：2020-10-17 20:32:37):
-let date = new DateFormat();  // 时间格式化工具
-console.log(date.getFormatDate());  // 2020-10-17 20:32:37
-console.log(date.getFormatMoreAll(-1));  // 2019-10-17 20:32:37
+// let date = new DateFormat();  // 时间格式化工具
+// console.log(date.getFormatDate());  // 2020-10-17 20:32:37
+// console.log(date.getFormatMoreAll(-1));  // 2019-10-17 20:32:37
 // console.log(date.getFormatMoreAllNoSet(-1));  //2018-10-17 20:32:37
 // console.log(date.getFormatDate("yy|mm|dd"));  // 2019|10|17
 // console.log(date.getFormatMoreItem("dd", 2));  // 2019-10-19 20:32:37
 // console.log(date.getFormatMoreItemNoSet("dd", 2));  // 2019-10-21 20:32:37
 
-// export { DateFormat };
+export { DateFormat };

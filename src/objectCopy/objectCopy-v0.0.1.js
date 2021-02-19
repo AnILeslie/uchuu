@@ -47,4 +47,4 @@ class MoreObject extends Object {
     }
 }
 
-// export { MoreObject };
+export { MoreObject };

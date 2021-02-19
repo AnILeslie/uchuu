@@ -1,9 +1,9 @@
-# formatDate
+# DateFormat
 ## version: v0.0.1
-## 参数：时间格式 yy:年，mm:月，dd:天，hh:小时，mn:分，ss:秒，ml:毫秒
+## 参数：时间格式 yy:年，MM:月，dd:天，hh:小时，mn:分，ss:秒，ml:毫秒
 ## 文件列表
 ```
-dateFormat-v0.0.1.js    --- 工具文件
+DateFormat-v0.0.1.js    --- 工具文件
 test.html               --- 测试文件
 ```
 # 使用
@@ -14,7 +14,7 @@ test.html               --- 测试文件
 ## 2、或者import
 ```
 export { DateFormat };  // 取消注释
-import { DateFormat } from "./dateFormat-v0.0.1.js";
+import { DateFormat } from "./DateFormat-v0.0.1.js";
 ```
 ## 3、引入后，JS代码块中使用
 ```
