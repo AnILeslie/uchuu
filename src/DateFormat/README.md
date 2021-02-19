@@ -9,7 +9,7 @@ test.html               --- 测试文件
 # 使用
 ## 1、文件引入
 ```
-<script src="dateFormat-v0.0.1.js"></script>
+<script src="DateFormat-v0.0.1.js"></script>
 ```
 ## 2、或者import
 ```

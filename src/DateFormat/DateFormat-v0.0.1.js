@@ -109,4 +109,5 @@ class DateFormat extends Date {
 // console.log(date.getFormatMoreItem("dd", 2));  // 2019-10-19 20:32:37
 // console.log(date.getFormatMoreItemNoSet("dd", 2));  // 2019-10-21 20:32:37
 
-export { DateFormat };
+// ES Module 模块导出
+// export { DateFormat };
