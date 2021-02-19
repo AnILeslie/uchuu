@@ -1,5 +1,5 @@
-# JavaScriptLib
-JavaScript工具库
+# JavaScript 
+工具库
 ## List
 ### 1、formatDate --- 时间格式化
 
