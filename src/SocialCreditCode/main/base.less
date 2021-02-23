@@ -1,0 +1,143 @@
+@item-height        : 35px;
+@item-border-radius : 4px;
+@item-border-outside: 1px solid #909399;
+@item-border-hover  : 1px solid #67c23a;
+
+html,
+body,
+div,
+ul,
+li {
+    padding: 0;
+    border : 0;
+    margin : 0;
+}
+
+html,
+body {
+    height: 100%;
+    width : 100%;
+}
+
+#app {
+    width : 100%;
+    height: 100%;
+}
+
+// 通用样式
+.bkg-primary {
+    background-color: #409eff;
+}
+
+.bkg-success {
+    background-color: #67c23a;
+}
+
+.bkg-warning {
+    background-color: #e6a23c;
+}
+
+.bkg-danger {
+    background-color: #f56c6c;
+}
+
+.bkg-info {
+    background-color: #909399;
+}
+
+/* 布局 */
+
+.cc-display {
+    display        : flex;
+    display        : -webkit-flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.ec-display {
+    display        : flex;
+    display        : -webkit-flex;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+.cs-display {
+    display        : flex;
+    display        : -webkit-flex;
+    justify-content: center;
+    align-items    : flex-start;
+}
+
+.main {
+    margin-top      : 40px;
+    padding-top     : 40px;
+    width           : 800px;
+    border          : 1px solid #f2f6fc;
+    background-color: #f2f6fc;
+    border-radius   : @item-border-radius;
+    box-shadow      : 0 0 10px #aaa;
+
+    .item {
+        width : 100%;
+        height: 80px;
+
+        .s-item {
+            width : 50%;
+            height: @item-height;
+        }
+
+        .text {
+            width : 15%;
+            height: @item-height;
+        }
+    }
+}
+
+.selected {
+    border       : @item-border-outside;
+    border-radius: @item-border-radius;
+    overflow     : hidden;
+
+    &:hover {
+        border: @item-border-hover;
+    }
+
+    select {
+        border : none;
+        outline: none;
+        width  : 100%;
+        height : 100%;
+    }
+}
+
+.result {
+    border          : @item-border-hover;
+    border-radius   : @item-border-radius;
+    background-color: #fff;
+}
+
+.s-input {
+    border : none;
+    outline: none;
+    border : @item-border-outside;
+    width  : 100%;
+    height : 100%;
+    padding: 0 10px;
+
+    &:hover {
+        border: @item-border-hover;
+    }
+}
+
+.border-none {
+    box-sizing        : border-box;
+    -webkit-box-sizing: border-box;
+    border-radius     : @item-border-radius;
+}
+
+button {
+    width    : 80px;
+    height   : 40px;
+    font-size: 16px;
+    cursor   : pointer;
+}
