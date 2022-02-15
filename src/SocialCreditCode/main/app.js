@@ -60,7 +60,7 @@ const valueAll = {
     },
     // 城市码
     city: [
-        { key: "110000", value: "北京市" },
+        { key: "350900", value: "宁德市" },
         { key: "110108", value: "北京市海淀区" },
         { key: "120000", value: "天津市" },
         { key: "330100", value: "杭州市" },
